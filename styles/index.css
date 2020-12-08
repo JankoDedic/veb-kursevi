@@ -28,9 +28,10 @@ body {
 }
 
 #title {
-  font-size: 80px;
+  font-size: 3em;
   margin-top: 50px;
   text-align: center;
+  padding: 1em 0;
 }
 
 .flexbox-container {
