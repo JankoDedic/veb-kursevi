@@ -51,7 +51,7 @@ body {
 }
 
 .item:hover {
-  background: radial-gradient(hsl(60, 80%, 95%), hsl(0, 75%, 60%));
+  background: radial-gradient(hsl(60, 80%, 95%), hsl(0, 75%, 50%));
   color: white;
 }
 
