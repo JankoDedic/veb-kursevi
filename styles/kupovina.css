@@ -43,11 +43,11 @@ body {
 }
 
 .content {
-    padding: 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 40px;
+    /* font-size: 40px; */
     padding: 10px;
     margin-bottom: 10px;
     box-shadow: 2.5px 5px 5px;
