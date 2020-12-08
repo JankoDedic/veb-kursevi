@@ -7,6 +7,10 @@
   }
 }
 
+.content {
+  margin-top: 50px;
+}
+
 .content .glavni .uvod {
   display: flex;
   align-items: center;
@@ -66,8 +70,8 @@ header {
 }
 
 .content .glavni .uvod .tekst button {
-  padding: 0.5em;
   font-weight: bold;
+  padding: 0.5em;
 }
 
 .prodaja-container {
@@ -106,6 +110,10 @@ header {
   font-weight: bold;
   margin: 0.1em;
   padding: 0.1em;
+}
+
+.prodaja a {
+  text-decoration: inherit;
 }
 
 .prodaja button {
@@ -154,11 +162,4 @@ header {
 #accordion div {
   background-color: hsl(0, 75%, 95%);
   padding-left: 0.25em;
-}
-
-footer {
-  background-color: hsl(240, 0%, 11%);
-  color: white;
-  padding: 1em 0 1em 0;
-  text-align: center;
 }
