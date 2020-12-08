@@ -73,7 +73,7 @@ $(document).ready(function(){
 
   // ========================= scrolling functions ====================================
   scrollToHTML=function() {
-    $("body,html").animate({scrollTop: $("body,html").offset().top}, 800);
+    $("body,html").animate({scrollTop: $("#html-container").offset().top - 50}, 800);
   }
 
   scrollToCSS=function() {
@@ -81,7 +81,7 @@ $(document).ready(function(){
   }
 
   scrollToJS=function() {
-    $("body,html").animate({scrollTop: $("#js-container").offset().top}, 800);
+    $("body,html").animate({scrollTop: $("#js-container").offset().top - 50}, 800);
   }
   //================================================================================
 
