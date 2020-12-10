@@ -7,13 +7,18 @@ body {
     hsl(0, 0%, 50%, 20%) 800px);
 }
 
+.naslov {
+  padding-top: 50px;
+  text-align: center;
+}
+
 .container {
   display: flex;
   justify-items: center;
 }
 
 .content {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   display: grid;
   grid-template-columns: auto;
   align-items: center;
